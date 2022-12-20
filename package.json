@@ -1,0 +1,19 @@
+{
+  "name": "srequest",
+  "version": "1.0.0",
+  "description": "https://github.com/request/request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maa123/reques.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/maa123/reques/issues"
+  },
+  "homepage": "https://github.com/maa123/reques#readme"
+}
