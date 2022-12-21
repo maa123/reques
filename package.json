@@ -1,5 +1,5 @@
 {
-  "name": "request",
+  "name": "@maa123/request",
   "version": "0.0.1",
   "description": "https://github.com/request/request",
   "main": "dist/index.js",
@@ -17,8 +17,8 @@
     "type": "git",
     "url": "git+https://github.com/maa123/reques.git"
   },
-  "author": "",
-  "license": "",
+  "author": "maa123",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/maa123/reques/issues"
   },
