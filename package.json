@@ -1,11 +1,18 @@
 {
-  "name": "srequest",
-  "version": "1.0.0",
+  "name": "request",
+  "version": "0.0.1",
   "description": "https://github.com/request/request",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-cjs": "esbuild index.js --platform=node --format=cjs --outfile=dist/index.js --bundle",
+    "build-esm": "esbuild index.js --platform=node --format=esm --outfile=dist/index.mjs ",
+    "build": "npm run build-cjs && npm run build-esm"
   },
+  "files": [
+    "dist/index.js",
+    "dist/index.mjs"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maa123/reques.git"
@@ -15,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/maa123/reques/issues"
   },
-  "homepage": "https://github.com/maa123/reques#readme"
+  "homepage": "https://github.com/maa123/reques#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.16.10"
+  }
 }
