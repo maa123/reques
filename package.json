@@ -19,6 +19,7 @@
   },
   "author": "maa123",
   "license": "MIT",
+  "packageManager": "pnpm@11.3.0",
   "bugs": {
     "url": "https://github.com/maa123/reques/issues"
   },
