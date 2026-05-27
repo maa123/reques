@@ -7,7 +7,7 @@
   "scripts": {
     "build-cjs": "esbuild index.js --platform=node --format=cjs --outfile=dist/index.js --bundle",
     "build-esm": "esbuild index.js --platform=node --format=esm --outfile=dist/index.mjs ",
-    "build": "pnpm run build-cjs && pnpm run build-esm"
+    "build": "npm run build-cjs && npm run build-esm"
   },
   "files": [
     "dist/index.js",
